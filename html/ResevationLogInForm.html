@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table img{
+            border-radius: 30px 30px;
+        }
+        table{
+            border: 3px solid whitesmoke ;
+            border-radius: 30px 30px ;
+        }
+        table th{
+            font-size: 25px;
+            /* align: left; */
+        }
+        table td.ty input, td.ty select, textarea{
+            border-radius: 20px 20px;
+            width: 300px;
+            height: 27px;
+        }
+        textarea{
+            width: 700px;
+            height: 50px;
+        }
+        td.tyt input{
+            width: 700px;
+            height: 30px;
+            border-radius: 10px 10px;
+        }
+        th.sub input{
+            width: 100px;
+            height: 50px;
+            font-size: 20px;
+            margin-left:10px;
+            border-radius: 10px 10px;
+            color: white;
+            background-color: rgb(93, 28, 212);
+        }
+    </style>
+</head>
+<body>
+    <table border="0 " align="center">
+        <tr>
+            <th colspan="2">
+                <img src="/image/booking.jpg" alt="" width="700px" >
+            </th>
+        </tr>
+        <tr>
+            <th align="left" >Hotel Booking Form <br> <br> </th>
+            <td></td>
+        </tr>
+        <tr>
+            <th align="left">First Name </th>
+            <th align="left">Last Name </th>
+        </tr>
+        <tr>
+            <td class="ty">
+                <input  type="text" placeholder="Enter your first name"> <br><br>
+            </td>
+            <td class="ty">
+                <input type="text" placeholder="Enter your last name"> <br><br>
+            </td>
+        </tr>
+        <tr>
+            <th align="left">Email </th>
+            <th align="left">Phone Number </th>
+        </tr>
+        <tr>
+            <td class="ty">
+                <input type="text" placeholder="Enter your email eddress"> <br><br>
+            </td>
+            <td class="ty">
+                <input type="text" placeholder="Enter your phone number"> <br><br>
+            </td>
+        </tr>
+        <tr>
+            <th align="left">Check-In Date <br>   
+            <th align="left">Check-Out Date <br>   
+        </tr>
+        <tr>
+            <td class="ty">
+                <input type="date" placeholder="Select check-in date"> <br><br>
+            </td>
+            <td class="ty">
+                <input type="date" placeholder="Select check-out date"> <br><br>
+            </td>
+        </tr>
+        <tr>
+            <th align="left">Number of Guests </th>
+            <th align="left">Room Type </th>
+        </tr>
+        <tr>
+            <td class="ty">
+                <input type="text">  <br><br>
+            </td>
+            <td class="ty">
+                <select name="" id="">
+                    <option value="">Standard</option>
+                    <option value="">Deluxe</option>
+                    <option value="">Suit</option>
+                </select> <br><br>
+            </td>
+        </tr>
+        <tr>
+            <th colspan="2" align="left">Place of Hotel</th>
+        </tr>
+        <tr>
+            <td class="tyt" colspan="2">
+                <input type="text" placeholder="Enter your place">
+            </td>
+        </tr>
+        <tr>
+            <th colspan="2" align="left">Amenities </th>
+        </tr>
+        <tr>
+            <td colspan="2">Select amenities you would like to have in your room </td>
+        </tr>
+        <tr>
+            <td >
+                <input type="checkbox" name="ch">Free WiFi
+            </td>
+            <td>
+                <input type="checkbox" name="ch">Free Breakfast
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="checkbox" name="ch">Gyms Access  <br> <br>
+            </td>
+            <td>
+                <input type="checkbox" name="ch">Pool Access  <br><br>
+            </td>
+        </tr>
+        <tr>
+            <th colspan="2" align="left">Special Requests </th>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <textarea name="" id="" cols="" rows="" placeholder="Enter any special requests or comments..."></textarea>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2"><br></td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <input type="checkbox">I agree to the terms and conditions.  <br> <br><br>
+            </td>
+        </tr>
+        <tr>
+            <th align="left" class="sub">
+                <input type="submit" value="submit">
+            </th>
+        </tr>
+    </table>
+</body>
+</html>
